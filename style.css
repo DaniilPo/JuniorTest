@@ -1,0 +1,38 @@
+.goods-out-top {
+    border-top: 1px solid black;
+
+}
+.goods-out-bottom {
+    border-bottom: 1px solid black;
+}
+.goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.block{
+    margin-left: 650px;
+    margin-top: 200px;
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    float: left;
+}
+.text{
+    margin-right: 50px;
+}
+.tree{
+    margin: 10px;
+}
+.treeblock{
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
